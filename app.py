@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # ── Configuration ──────────────────────────────────────────────
-API_KEY = "AIzaSyC_hjAd9pqvtDMlFGBY_I-BtyE9OkSQBSo"
+API_KEY = "AIzaSyAhYsKItMGZ0BSkymTPSmUssD_of5a3NA0"
 MODEL_NAME = "gemini-2.5-flash"
 
 SYSTEM_INSTRUCTION = """
@@ -17,7 +17,12 @@ Your emails should:
 - Explain what makes this game stand out in the current market
 - Close with a specific and confident call to action
 - Sound like it was written by a real person who believes in the project
-- Be professional but not stiff, around 200 words
+- Be professional but not stiff, around 150 to 200 words
+- Do not invent a game title unless the user provides one
+- Do not use any markdown formatting such as bold, italic, or headers
+- Do not invent gameplay mechanics, story details, or features that were not mentioned in the input
+- Do not claim the team has a prototype or demo unless the user says so
+- Sign the email as Jingwen Yang, Founder of Dawnveil Studio
 """
 
 # ── Main function ───────────────────────────────────────────────
