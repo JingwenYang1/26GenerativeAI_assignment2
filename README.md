@@ -12,3 +12,6 @@ A professional pitch email that introduces the game and invites further discussi
 
 ## Why this task is Valuable
 Game developers often need to communicate their ideas clearly and persuasively to investors or publishers. Writing effective pitch emails can be time-consuming and requires both creativity and business communication skills. A GenAI workflow can help generate a strong first draft quickly, while still allowing human refinement.
+
+# Walkthrough Video
+https://youtu.be/x5UDk0Qjsys
